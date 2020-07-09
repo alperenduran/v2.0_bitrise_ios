@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD30FA5024B7244E00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA4F24B7244E00B45B4F /* v2_0_bitrise_iosApp.swift */; };
+		AD30FA5224B7244E00B45B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA5124B7244E00B45B4F /* ContentView.swift */; };
+		AD30FA5424B7244E00B45B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA5324B7244E00B45B4F /* Assets.xcassets */; };
+		AD30FA5724B7244E00B45B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA5624B7244E00B45B4F /* Preview Assets.xcassets */; };
+		AD30FA6224B7244E00B45B4F /* v2_0_bitrise_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA6124B7244E00B45B4F /* v2_0_bitrise_iosTests.swift */; };
+		AD30FA6D24B7244F00B45B4F /* v2_0_bitrise_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA6C24B7244F00B45B4F /* v2_0_bitrise_iosUITests.swift */; };
+		AD30FA7224B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD30FA7124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD30FA7724B7244F00B45B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA7624B7244F00B45B4F /* Assets.xcassets */; };
+		AD30FA7E24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD30FA7D24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD30FA8324B7244F00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA8224B7244F00B45B4F /* v2_0_bitrise_iosApp.swift */; };
+		AD30FA8524B7244F00B45B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA8424B7244F00B45B4F /* ContentView.swift */; };
+		AD30FA8724B7244F00B45B4F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA8624B7244F00B45B4F /* NotificationController.swift */; };
+		AD30FA8924B7244F00B45B4F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA8824B7244F00B45B4F /* NotificationView.swift */; };
+		AD30FA8B24B7244F00B45B4F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA8A24B7244F00B45B4F /* ComplicationController.swift */; };
+		AD30FA8D24B7245000B45B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA8C24B7245000B45B4F /* Assets.xcassets */; };
+		AD30FA9024B7245000B45B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA8F24B7245000B45B4F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD30FA5E24B7244E00B45B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD30FA4424B7244D00B45B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD30FA4B24B7244E00B45B4F;
+			remoteInfo = v2.0_bitrise_ios;
+		};
+		AD30FA6924B7244F00B45B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD30FA4424B7244D00B45B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD30FA4B24B7244E00B45B4F;
+			remoteInfo = v2.0_bitrise_ios;
+		};
+		AD30FA7324B7244F00B45B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD30FA4424B7244D00B45B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD30FA7024B7244F00B45B4F;
+			remoteInfo = "v2.0_bitrise_ios WatchKit App";
+		};
+		AD30FA7F24B7244F00B45B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD30FA4424B7244D00B45B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD30FA7C24B7244F00B45B4F;
+			remoteInfo = "v2.0_bitrise_ios WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD30FA9824B7245000B45B4F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AD30FA7E24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA9C24B7245000B45B4F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AD30FA7224B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD30FA4C24B7244E00B45B4F /* v2.0_bitrise_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = v2.0_bitrise_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD30FA4F24B7244E00B45B4F /* v2_0_bitrise_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2_0_bitrise_iosApp.swift; sourceTree = "<group>"; };
+		AD30FA5124B7244E00B45B4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD30FA5324B7244E00B45B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD30FA5624B7244E00B45B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD30FA5824B7244E00B45B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD30FA5D24B7244E00B45B4F /* v2.0_bitrise_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = v2.0_bitrise_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD30FA6124B7244E00B45B4F /* v2_0_bitrise_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2_0_bitrise_iosTests.swift; sourceTree = "<group>"; };
+		AD30FA6324B7244E00B45B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD30FA6824B7244F00B45B4F /* v2.0_bitrise_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = v2.0_bitrise_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD30FA6C24B7244F00B45B4F /* v2_0_bitrise_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2_0_bitrise_iosUITests.swift; sourceTree = "<group>"; };
+		AD30FA6E24B7244F00B45B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD30FA7124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "v2.0_bitrise_ios WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD30FA7624B7244F00B45B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD30FA7824B7244F00B45B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD30FA7D24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "v2.0_bitrise_ios WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD30FA8224B7244F00B45B4F /* v2_0_bitrise_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2_0_bitrise_iosApp.swift; sourceTree = "<group>"; };
+		AD30FA8424B7244F00B45B4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD30FA8624B7244F00B45B4F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AD30FA8824B7244F00B45B4F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		AD30FA8A24B7244F00B45B4F /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		AD30FA8C24B7245000B45B4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD30FA8F24B7245000B45B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD30FA9124B7245000B45B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD30FA9224B7245000B45B4F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD30FA4924B7244E00B45B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA5A24B7244E00B45B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA6524B7244F00B45B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA7A24B7244F00B45B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD30FA4324B7244D00B45B4F = {
+			isa = PBXGroup;
+			children = (
+				AD30FA4E24B7244E00B45B4F /* v2.0_bitrise_ios */,
+				AD30FA6024B7244E00B45B4F /* v2.0_bitrise_iosTests */,
+				AD30FA6B24B7244F00B45B4F /* v2.0_bitrise_iosUITests */,
+				AD30FA7524B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App */,
+				AD30FA8124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension */,
+				AD30FA4D24B7244E00B45B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD30FA4D24B7244E00B45B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA4C24B7244E00B45B4F /* v2.0_bitrise_ios.app */,
+				AD30FA5D24B7244E00B45B4F /* v2.0_bitrise_iosTests.xctest */,
+				AD30FA6824B7244F00B45B4F /* v2.0_bitrise_iosUITests.xctest */,
+				AD30FA7124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app */,
+				AD30FA7D24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD30FA4E24B7244E00B45B4F /* v2.0_bitrise_ios */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA4F24B7244E00B45B4F /* v2_0_bitrise_iosApp.swift */,
+				AD30FA5124B7244E00B45B4F /* ContentView.swift */,
+				AD30FA5324B7244E00B45B4F /* Assets.xcassets */,
+				AD30FA5824B7244E00B45B4F /* Info.plist */,
+				AD30FA5524B7244E00B45B4F /* Preview Content */,
+			);
+			path = v2.0_bitrise_ios;
+			sourceTree = "<group>";
+		};
+		AD30FA5524B7244E00B45B4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA5624B7244E00B45B4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD30FA6024B7244E00B45B4F /* v2.0_bitrise_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA6124B7244E00B45B4F /* v2_0_bitrise_iosTests.swift */,
+				AD30FA6324B7244E00B45B4F /* Info.plist */,
+			);
+			path = v2.0_bitrise_iosTests;
+			sourceTree = "<group>";
+		};
+		AD30FA6B24B7244F00B45B4F /* v2.0_bitrise_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA6C24B7244F00B45B4F /* v2_0_bitrise_iosUITests.swift */,
+				AD30FA6E24B7244F00B45B4F /* Info.plist */,
+			);
+			path = v2.0_bitrise_iosUITests;
+			sourceTree = "<group>";
+		};
+		AD30FA7524B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA7624B7244F00B45B4F /* Assets.xcassets */,
+				AD30FA7824B7244F00B45B4F /* Info.plist */,
+			);
+			path = "v2.0_bitrise_ios WatchKit App";
+			sourceTree = "<group>";
+		};
+		AD30FA8124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA8224B7244F00B45B4F /* v2_0_bitrise_iosApp.swift */,
+				AD30FA8424B7244F00B45B4F /* ContentView.swift */,
+				AD30FA8624B7244F00B45B4F /* NotificationController.swift */,
+				AD30FA8824B7244F00B45B4F /* NotificationView.swift */,
+				AD30FA8A24B7244F00B45B4F /* ComplicationController.swift */,
+				AD30FA8C24B7245000B45B4F /* Assets.xcassets */,
+				AD30FA9124B7245000B45B4F /* Info.plist */,
+				AD30FA9224B7245000B45B4F /* PushNotificationPayload.apns */,
+				AD30FA8E24B7245000B45B4F /* Preview Content */,
+			);
+			path = "v2.0_bitrise_ios WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AD30FA8E24B7245000B45B4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FA8F24B7245000B45B4F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD30FA4B24B7244E00B45B4F /* v2.0_bitrise_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD30FA9D24B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_ios" */;
+			buildPhases = (
+				AD30FA4824B7244E00B45B4F /* Sources */,
+				AD30FA4924B7244E00B45B4F /* Frameworks */,
+				AD30FA4A24B7244E00B45B4F /* Resources */,
+				AD30FA9C24B7245000B45B4F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD30FA7424B7244F00B45B4F /* PBXTargetDependency */,
+			);
+			name = v2.0_bitrise_ios;
+			productName = v2.0_bitrise_ios;
+			productReference = AD30FA4C24B7244E00B45B4F /* v2.0_bitrise_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD30FA5C24B7244E00B45B4F /* v2.0_bitrise_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD30FAA024B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_iosTests" */;
+			buildPhases = (
+				AD30FA5924B7244E00B45B4F /* Sources */,
+				AD30FA5A24B7244E00B45B4F /* Frameworks */,
+				AD30FA5B24B7244E00B45B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD30FA5F24B7244E00B45B4F /* PBXTargetDependency */,
+			);
+			name = v2.0_bitrise_iosTests;
+			productName = v2.0_bitrise_iosTests;
+			productReference = AD30FA5D24B7244E00B45B4F /* v2.0_bitrise_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD30FA6724B7244F00B45B4F /* v2.0_bitrise_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD30FAA324B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_iosUITests" */;
+			buildPhases = (
+				AD30FA6424B7244F00B45B4F /* Sources */,
+				AD30FA6524B7244F00B45B4F /* Frameworks */,
+				AD30FA6624B7244F00B45B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD30FA6A24B7244F00B45B4F /* PBXTargetDependency */,
+			);
+			name = v2.0_bitrise_iosUITests;
+			productName = v2.0_bitrise_iosUITests;
+			productReference = AD30FA6824B7244F00B45B4F /* v2.0_bitrise_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD30FA7024B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD30FA9924B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_ios WatchKit App" */;
+			buildPhases = (
+				AD30FA6F24B7244F00B45B4F /* Resources */,
+				AD30FA9824B7245000B45B4F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD30FA8024B7244F00B45B4F /* PBXTargetDependency */,
+			);
+			name = "v2.0_bitrise_ios WatchKit App";
+			productName = "v2.0_bitrise_ios WatchKit App";
+			productReference = AD30FA7124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		AD30FA7C24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD30FA9524B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_ios WatchKit Extension" */;
+			buildPhases = (
+				AD30FA7924B7244F00B45B4F /* Sources */,
+				AD30FA7A24B7244F00B45B4F /* Frameworks */,
+				AD30FA7B24B7244F00B45B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "v2.0_bitrise_ios WatchKit Extension";
+			productName = "v2.0_bitrise_ios WatchKit Extension";
+			productReference = AD30FA7D24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD30FA4424B7244D00B45B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AD30FA4B24B7244E00B45B4F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AD30FA5C24B7244E00B45B4F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AD30FA4B24B7244E00B45B4F;
+					};
+					AD30FA6724B7244F00B45B4F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AD30FA4B24B7244E00B45B4F;
+					};
+					AD30FA7024B7244F00B45B4F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AD30FA7C24B7244F00B45B4F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = AD30FA4724B7244D00B45B4F /* Build configuration list for PBXProject "v2.0_bitrise_ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD30FA4324B7244D00B45B4F;
+			productRefGroup = AD30FA4D24B7244E00B45B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD30FA4B24B7244E00B45B4F /* v2.0_bitrise_ios */,
+				AD30FA5C24B7244E00B45B4F /* v2.0_bitrise_iosTests */,
+				AD30FA6724B7244F00B45B4F /* v2.0_bitrise_iosUITests */,
+				AD30FA7024B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App */,
+				AD30FA7C24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD30FA4A24B7244E00B45B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD30FA5724B7244E00B45B4F /* Preview Assets.xcassets in Resources */,
+				AD30FA5424B7244E00B45B4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA5B24B7244E00B45B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA6624B7244F00B45B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA6F24B7244F00B45B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD30FA7724B7244F00B45B4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA7B24B7244F00B45B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD30FA9024B7245000B45B4F /* Preview Assets.xcassets in Resources */,
+				AD30FA8D24B7245000B45B4F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD30FA4824B7244E00B45B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD30FA5224B7244E00B45B4F /* ContentView.swift in Sources */,
+				AD30FA5024B7244E00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA5924B7244E00B45B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD30FA6224B7244E00B45B4F /* v2_0_bitrise_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA6424B7244F00B45B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD30FA6D24B7244F00B45B4F /* v2_0_bitrise_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD30FA7924B7244F00B45B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD30FA8724B7244F00B45B4F /* NotificationController.swift in Sources */,
+				AD30FA8524B7244F00B45B4F /* ContentView.swift in Sources */,
+				AD30FA8B24B7244F00B45B4F /* ComplicationController.swift in Sources */,
+				AD30FA8324B7244F00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */,
+				AD30FA8924B7244F00B45B4F /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD30FA5F24B7244E00B45B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD30FA4B24B7244E00B45B4F /* v2.0_bitrise_ios */;
+			targetProxy = AD30FA5E24B7244E00B45B4F /* PBXContainerItemProxy */;
+		};
+		AD30FA6A24B7244F00B45B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD30FA4B24B7244E00B45B4F /* v2.0_bitrise_ios */;
+			targetProxy = AD30FA6924B7244F00B45B4F /* PBXContainerItemProxy */;
+		};
+		AD30FA7424B7244F00B45B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD30FA7024B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App */;
+			targetProxy = AD30FA7324B7244F00B45B4F /* PBXContainerItemProxy */;
+		};
+		AD30FA8024B7244F00B45B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD30FA7C24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension */;
+			targetProxy = AD30FA7F24B7244F00B45B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD30FA9324B7245000B45B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD30FA9424B7245000B45B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AD30FA9624B7245000B45B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		AD30FA9724B7245000B45B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		AD30FA9A24B7245000B45B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				IBSC_MODULE = v2_0_bitrise_ios_WatchKit_Extension;
+				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		AD30FA9B24B7245000B45B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				IBSC_MODULE = v2_0_bitrise_ios_WatchKit_Extension;
+				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		AD30FA9E24B7245000B45B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = v2.0_bitrise_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD30FA9F24B7245000B45B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = v2.0_bitrise_ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD30FAA124B7245000B45B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				INFOPLIST_FILE = v2.0_bitrise_iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/v2.0_bitrise_ios.app/v2.0_bitrise_ios";
+			};
+			name = Debug;
+		};
+		AD30FAA224B7245000B45B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				INFOPLIST_FILE = v2.0_bitrise_iosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/v2.0_bitrise_ios.app/v2.0_bitrise_ios";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD30FAA424B7245000B45B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				INFOPLIST_FILE = v2.0_bitrise_iosUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = v2.0_bitrise_ios;
+			};
+			name = Debug;
+		};
+		AD30FAA524B7245000B45B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24276C4JVA;
+				INFOPLIST_FILE = v2.0_bitrise_iosUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = v2.0_bitrise_ios;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD30FA4724B7244D00B45B4F /* Build configuration list for PBXProject "v2.0_bitrise_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD30FA9324B7245000B45B4F /* Debug */,
+				AD30FA9424B7245000B45B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD30FA9524B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_ios WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD30FA9624B7245000B45B4F /* Debug */,
+				AD30FA9724B7245000B45B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD30FA9924B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_ios WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD30FA9A24B7245000B45B4F /* Debug */,
+				AD30FA9B24B7245000B45B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD30FA9D24B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD30FA9E24B7245000B45B4F /* Debug */,
+				AD30FA9F24B7245000B45B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD30FAA024B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD30FAA124B7245000B45B4F /* Debug */,
+				AD30FAA224B7245000B45B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD30FAA324B7245000B45B4F /* Build configuration list for PBXNativeTarget "v2.0_bitrise_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD30FAA424B7245000B45B4F /* Debug */,
+				AD30FAA524B7245000B45B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD30FA4424B7244D00B45B4F /* Project object */;
+}
