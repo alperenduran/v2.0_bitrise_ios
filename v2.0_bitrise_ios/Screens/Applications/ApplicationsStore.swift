@@ -1,32 +1,12 @@
 //
-//  ContentView.swift
-//  v2.0_bitrise_ios WatchKit Extension
+//  Applications Store.swift
+//  v2.0_bitrise_ios
 //
 //  Created by Alperen Duran on 9.07.2020.
 //
 
-import SwiftUI
-
-struct ContentView: View {
-    @ObservedObject var store = ApplicationStore()
-    var body: some View {
-        ScrollView {
-            
-            ForEach(store.applications) { app in
-                NavigationLink(destination: BranchList(app: app)) {
-                    AppCell(app: app)
-                }
-            }
-        }
-        .navigationTitle("Applications")
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+import Foundation
+import Combine
 
 class ApplicationStore: ObservableObject {
     @Published var applications: [Application] = []
@@ -56,7 +36,7 @@ class ApplicationStore: ObservableObject {
         task.resume()
     }
     
-    init() {
+    func refresh() {
         fetchApplications { resp in
             DispatchQueue.main.async {
                 if case .success(let apps) = resp {
@@ -66,15 +46,6 @@ class ApplicationStore: ObservableObject {
                     self.showError = true
                 }
             }
-        }
-    }
-}
-
-struct AppCell: View {
-    let app: Application
-    var body: some View {
-        HStack {
-            Text(app.title)
         }
     }
 }

@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "slug": "adsfasdfasdfasdf",
+      "title": "Yemeksepeti.Androidv3",
+      "project_type": null,
+      "provider": "github",
+      "repo_owner": "yemeksepeti",
+      "repo_url": "git@github.com:yemeksepeti/Yemeksepeti.Androidv3.git",
+      "repo_slug": "Yemeksepeti.Androidv3",
+      "is_disabled": false,
+      "status": -1,
+      "is_public": false,
+      "owner": {
+        "account_type": "organization",
+        "name": "Yemeksepeti",
+        "slug": "asdfsdfasdasd"
+      },
+      "avatar_url": null
+    },
+    {
+      "slug": "fdasfdfasdfasdfasdfasdfadsafds",
+      "title": "Yemeksepeti.Androidv3",
+      "project_type": "android",
+      "provider": "github",
+      "repo_owner": "yemeksepeti",
+      "repo_url": "git@github.com:yemeksepeti/Yemeksepeti.Androidv3.git",
+      "repo_slug": "Yemeksepeti.Androidv3",
+      "is_disabled": false,
+      "status": 1,
+      "is_public": false,
+      "owner": {
+        "account_type": "organization",
+        "name": "Yemeksepeti",
+        "slug": "fsadfasdfasdf"
+      },
+      "avatar_url": "https://concrete-userfiles-production.s3.us-west-2.amazonaws.com/repositories/0b0c57aec235db58/avatar/avatar.png"
+    },
+    {
+      "slug": "safdsafasd",
+      "title": "yemeksepeti_ios",
+      "project_type": "ios",
+      "provider": "github",
+      "repo_owner": "yemeksepeti",
+      "repo_url": "git@github.com:yemeksepeti/yemeksepeti_ios.git",
+      "repo_slug": "yemeksepeti_ios",
+      "is_disabled": false,
+      "status": 1,
+      "is_public": false,
+      "owner": {
+        "account_type": "organization",
+        "name": "Yemeksepeti",
+        "slug": "sdafsdfsdfa"
+      },
+      "avatar_url": "https://concrete-userfiles-production.s3.us-west-2.amazonaws.com/repositories/2d1fb7fa6fcc72a8/avatar/avatar.png"
+    }
+  ],
+  "paging": {
+    "total_item_count": 3,
+    "page_item_limit": 50
+  }
+}

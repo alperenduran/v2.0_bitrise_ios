@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct v2_0_bitrise_iosApp: App {
+    @State var reason: Reason = .add
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Applications()
         }
     }
 }

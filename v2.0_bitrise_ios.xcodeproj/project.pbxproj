@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2812CB24D7798700476073 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2812CA24D7798700476073 /* HostingController.swift */; };
+		AD2812CD24D7799D00476073 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2812CC24D7799D00476073 /* ExtensionDelegate.swift */; };
 		AD30FA5024B7244E00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA4F24B7244E00B45B4F /* v2_0_bitrise_iosApp.swift */; };
 		AD30FA5224B7244E00B45B4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA5124B7244E00B45B4F /* ContentView.swift */; };
 		AD30FA5424B7244E00B45B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA5324B7244E00B45B4F /* Assets.xcassets */; };
 		AD30FA5724B7244E00B45B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA5624B7244E00B45B4F /* Preview Assets.xcassets */; };
 		AD30FA6224B7244E00B45B4F /* v2_0_bitrise_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA6124B7244E00B45B4F /* v2_0_bitrise_iosTests.swift */; };
 		AD30FA6D24B7244F00B45B4F /* v2_0_bitrise_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA6C24B7244F00B45B4F /* v2_0_bitrise_iosUITests.swift */; };
-		AD30FA7224B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD30FA7124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD30FA7224B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD30FA7124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD30FA7724B7244F00B45B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA7624B7244F00B45B4F /* Assets.xcassets */; };
 		AD30FA7E24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD30FA7D24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD30FA8324B7244F00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA8224B7244F00B45B4F /* v2_0_bitrise_iosApp.swift */; };
@@ -23,6 +25,35 @@
 		AD30FA8B24B7244F00B45B4F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FA8A24B7244F00B45B4F /* ComplicationController.swift */; };
 		AD30FA8D24B7245000B45B4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA8C24B7245000B45B4F /* Assets.xcassets */; };
 		AD30FA9024B7245000B45B4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD30FA8F24B7245000B45B4F /* Preview Assets.xcassets */; };
+		AD30FAA824B724EF00B45B4F /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD30FAA724B724EF00B45B4F /* KeychainSwift */; };
+		AD30FAAB24B7252D00B45B4F /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAAA24B7252D00B45B4F /* TokenProvider.swift */; };
+		AD30FAAF24B726EB00B45B4F /* AddTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAAE24B726EB00B45B4F /* AddTokenView.swift */; };
+		AD30FAB224B7271C00B45B4F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAB124B7271C00B45B4F /* Data.swift */; };
+		AD30FAB524B7275400B45B4F /* applicationList.json in Resources */ = {isa = PBXBuildFile; fileRef = AD30FAB324B7275400B45B4F /* applicationList.json */; };
+		AD30FAB624B7275400B45B4F /* applicationDetail.json in Resources */ = {isa = PBXBuildFile; fileRef = AD30FAB424B7275400B45B4F /* applicationDetail.json */; };
+		AD30FAB824B7276A00B45B4F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAB724B7276A00B45B4F /* Models.swift */; };
+		AD30FABB24B72AE400B45B4F /* Applications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FABA24B72AE400B45B4F /* Applications.swift */; };
+		AD30FABD24B72CAF00B45B4F /* ApplicationsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FABC24B72CAF00B45B4F /* ApplicationsStore.swift */; };
+		AD30FAC024B7318500B45B4F /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = AD30FABF24B7318500B45B4F /* KingfisherSwiftUI */; };
+		AD30FAC224B7354300B45B4F /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAC124B7354300B45B4F /* ImageView.swift */; };
+		AD30FAC924B73B9400B45B4F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAB724B7276A00B45B4F /* Models.swift */; };
+		AD30FACA24B73C1600B45B4F /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAAA24B7252D00B45B4F /* TokenProvider.swift */; };
+		AD30FACD24B73C4E00B45B4F /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD30FACC24B73C4E00B45B4F /* KeychainSwift */; };
+		ADD9DA1124C705D000E89DBE /* ADModifiers in Frameworks */ = {isa = PBXBuildFile; productRef = ADD9DA1024C705D000E89DBE /* ADModifiers */; };
+		ADD9DA1224C70B3A00E89DBE /* TriggerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081EF24C5BFC9005C4343 /* TriggerStore.swift */; };
+		ADD9DA1424C70B5000E89DBE /* BranchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9DA1324C70B5000E89DBE /* BranchList.swift */; };
+		ADE081D624C5B29C005C4343 /* ApplicationDetailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081D524C5B29C005C4343 /* ApplicationDetailStore.swift */; };
+		ADE081D824C5B3D6005C4343 /* Builds.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081D724C5B3D6005C4343 /* Builds.swift */; };
+		ADE081E324C5B697005C4343 /* BuildCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081DA24C5B697005C4343 /* BuildCard.swift */; };
+		ADE081E424C5B697005C4343 /* BuildNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081DB24C5B697005C4343 /* BuildNameLabel.swift */; };
+		ADE081E524C5B697005C4343 /* BuildNumberLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081DC24C5B697005C4343 /* BuildNumberLabel.swift */; };
+		ADE081E624C5B697005C4343 /* CreateBuildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081DD24C5B697005C4343 /* CreateBuildCell.swift */; };
+		ADE081E724C5B697005C4343 /* BranchLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081DE24C5B697005C4343 /* BranchLabel.swift */; };
+		ADE081E824C5B697005C4343 /* BuildStartTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081DF24C5B697005C4343 /* BuildStartTimeLabel.swift */; };
+		ADE081E924C5B697005C4343 /* WorkflowLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081E024C5B697005C4343 /* WorkflowLabel.swift */; };
+		ADE081EB24C5B697005C4343 /* BuildStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081E224C5B697005C4343 /* BuildStatusView.swift */; };
+		ADE081EE24C5BF31005C4343 /* TriggerBuildForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081ED24C5BF31005C4343 /* TriggerBuildForm.swift */; };
+		ADE081F024C5BFC9005C4343 /* TriggerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081EF24C5BFC9005C4343 /* TriggerStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,9 +110,21 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADD9DA0B24C7037700E89DBE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD2812CA24D7798700476073 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		AD2812CC24D7799D00476073 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		AD30FA4C24B7244E00B45B4F /* v2.0_bitrise_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = v2.0_bitrise_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD30FA4F24B7244E00B45B4F /* v2_0_bitrise_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = v2_0_bitrise_iosApp.swift; sourceTree = "<group>"; };
 		AD30FA5124B7244E00B45B4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +150,32 @@
 		AD30FA8F24B7245000B45B4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD30FA9124B7245000B45B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD30FA9224B7245000B45B4F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AD30FAAA24B7252D00B45B4F /* TokenProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
+		AD30FAAE24B726EB00B45B4F /* AddTokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTokenView.swift; sourceTree = "<group>"; };
+		AD30FAB124B7271C00B45B4F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		AD30FAB324B7275400B45B4F /* applicationList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = applicationList.json; sourceTree = "<group>"; };
+		AD30FAB424B7275400B45B4F /* applicationDetail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = applicationDetail.json; sourceTree = "<group>"; };
+		AD30FAB724B7276A00B45B4F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AD30FABA24B72AE400B45B4F /* Applications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applications.swift; sourceTree = "<group>"; };
+		AD30FABC24B72CAF00B45B4F /* ApplicationsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsStore.swift; sourceTree = "<group>"; };
+		AD30FAC124B7354300B45B4F /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		AD35FF8024D0567C002F1B83 /* v2.0_bitrise_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = v2.0_bitrise_ios.entitlements; sourceTree = "<group>"; };
+		AD35FF8124D0567C002F1B83 /* Last BuildsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Last BuildsExtension.entitlements"; sourceTree = "<group>"; };
+		ADD9D9FB24C7037600E89DBE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		ADD9D9FD24C7037600E89DBE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		ADD9DA1324C70B5000E89DBE /* BranchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchList.swift; sourceTree = "<group>"; };
+		ADE081D524C5B29C005C4343 /* ApplicationDetailStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDetailStore.swift; sourceTree = "<group>"; };
+		ADE081D724C5B3D6005C4343 /* Builds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builds.swift; sourceTree = "<group>"; };
+		ADE081DA24C5B697005C4343 /* BuildCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildCard.swift; sourceTree = "<group>"; };
+		ADE081DB24C5B697005C4343 /* BuildNameLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildNameLabel.swift; sourceTree = "<group>"; };
+		ADE081DC24C5B697005C4343 /* BuildNumberLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildNumberLabel.swift; sourceTree = "<group>"; };
+		ADE081DD24C5B697005C4343 /* CreateBuildCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBuildCell.swift; sourceTree = "<group>"; };
+		ADE081DE24C5B697005C4343 /* BranchLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchLabel.swift; sourceTree = "<group>"; };
+		ADE081DF24C5B697005C4343 /* BuildStartTimeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildStartTimeLabel.swift; sourceTree = "<group>"; };
+		ADE081E024C5B697005C4343 /* WorkflowLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkflowLabel.swift; sourceTree = "<group>"; };
+		ADE081E224C5B697005C4343 /* BuildStatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildStatusView.swift; sourceTree = "<group>"; };
+		ADE081ED24C5BF31005C4343 /* TriggerBuildForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerBuildForm.swift; sourceTree = "<group>"; };
+		ADE081EF24C5BFC9005C4343 /* TriggerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +183,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD30FAC024B7318500B45B4F /* KingfisherSwiftUI in Frameworks */,
+				AD30FAA824B724EF00B45B4F /* KeychainSwift in Frameworks */,
+				ADD9DA1124C705D000E89DBE /* ADModifiers in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +207,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD30FACD24B73C4E00B45B4F /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,12 +217,14 @@
 		AD30FA4324B7244D00B45B4F = {
 			isa = PBXGroup;
 			children = (
+				AD35FF8124D0567C002F1B83 /* Last BuildsExtension.entitlements */,
 				AD30FA4E24B7244E00B45B4F /* v2.0_bitrise_ios */,
 				AD30FA6024B7244E00B45B4F /* v2.0_bitrise_iosTests */,
 				AD30FA6B24B7244F00B45B4F /* v2.0_bitrise_iosUITests */,
 				AD30FA7524B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App */,
 				AD30FA8124B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension */,
 				AD30FA4D24B7244E00B45B4F /* Products */,
+				AD30FACB24B73C4E00B45B4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,11 +243,16 @@
 		AD30FA4E24B7244E00B45B4F /* v2.0_bitrise_ios */ = {
 			isa = PBXGroup;
 			children = (
+				AD35FF8024D0567C002F1B83 /* v2.0_bitrise_ios.entitlements */,
+				AD30FAB024B7270E00B45B4F /* LivePreviewAssets */,
+				AD30FAAC24B726A400B45B4F /* Screens */,
+				AD30FAA924B724FA00B45B4F /* TokenProvider */,
 				AD30FA4F24B7244E00B45B4F /* v2_0_bitrise_iosApp.swift */,
 				AD30FA5124B7244E00B45B4F /* ContentView.swift */,
 				AD30FA5324B7244E00B45B4F /* Assets.xcassets */,
 				AD30FA5824B7244E00B45B4F /* Info.plist */,
 				AD30FA5524B7244E00B45B4F /* Preview Content */,
+				AD30FAB724B7276A00B45B4F /* Models.swift */,
 			);
 			path = v2.0_bitrise_ios;
 			sourceTree = "<group>";
@@ -224,6 +304,9 @@
 				AD30FA9124B7245000B45B4F /* Info.plist */,
 				AD30FA9224B7245000B45B4F /* PushNotificationPayload.apns */,
 				AD30FA8E24B7245000B45B4F /* Preview Content */,
+				ADD9DA1324C70B5000E89DBE /* BranchList.swift */,
+				AD2812CA24D7798700476073 /* HostingController.swift */,
+				AD2812CC24D7799D00476073 /* ExtensionDelegate.swift */,
 			);
 			path = "v2.0_bitrise_ios WatchKit Extension";
 			sourceTree = "<group>";
@@ -234,6 +317,96 @@
 				AD30FA8F24B7245000B45B4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD30FAA924B724FA00B45B4F /* TokenProvider */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FAAA24B7252D00B45B4F /* TokenProvider.swift */,
+			);
+			path = TokenProvider;
+			sourceTree = "<group>";
+		};
+		AD30FAAC24B726A400B45B4F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ADE081EC24C5BF1B005C4343 /* TriggerBuild */,
+				ADE081D924C5B697005C4343 /* Views */,
+				ADA6DE2E24BC6ADE000336F2 /* ApplicationDetail */,
+				AD30FAB924B72ACF00B45B4F /* Applications */,
+				AD30FAAD24B726AC00B45B4F /* AddToken */,
+				AD30FAC124B7354300B45B4F /* ImageView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AD30FAAD24B726AC00B45B4F /* AddToken */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FAAE24B726EB00B45B4F /* AddTokenView.swift */,
+			);
+			path = AddToken;
+			sourceTree = "<group>";
+		};
+		AD30FAB024B7270E00B45B4F /* LivePreviewAssets */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FAB424B7275400B45B4F /* applicationDetail.json */,
+				AD30FAB324B7275400B45B4F /* applicationList.json */,
+				AD30FAB124B7271C00B45B4F /* Data.swift */,
+			);
+			path = LivePreviewAssets;
+			sourceTree = "<group>";
+		};
+		AD30FAB924B72ACF00B45B4F /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				AD30FABA24B72AE400B45B4F /* Applications.swift */,
+				AD30FABC24B72CAF00B45B4F /* ApplicationsStore.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		AD30FACB24B73C4E00B45B4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADD9D9FB24C7037600E89DBE /* WidgetKit.framework */,
+				ADD9D9FD24C7037600E89DBE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA6DE2E24BC6ADE000336F2 /* ApplicationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				ADE081D524C5B29C005C4343 /* ApplicationDetailStore.swift */,
+				ADE081D724C5B3D6005C4343 /* Builds.swift */,
+			);
+			path = ApplicationDetail;
+			sourceTree = "<group>";
+		};
+		ADE081D924C5B697005C4343 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADE081DA24C5B697005C4343 /* BuildCard.swift */,
+				ADE081DB24C5B697005C4343 /* BuildNameLabel.swift */,
+				ADE081DC24C5B697005C4343 /* BuildNumberLabel.swift */,
+				ADE081DD24C5B697005C4343 /* CreateBuildCell.swift */,
+				ADE081DE24C5B697005C4343 /* BranchLabel.swift */,
+				ADE081DF24C5B697005C4343 /* BuildStartTimeLabel.swift */,
+				ADE081E024C5B697005C4343 /* WorkflowLabel.swift */,
+				ADE081E224C5B697005C4343 /* BuildStatusView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADE081EC24C5BF1B005C4343 /* TriggerBuild */ = {
+			isa = PBXGroup;
+			children = (
+				ADE081ED24C5BF31005C4343 /* TriggerBuildForm.swift */,
+				ADE081EF24C5BFC9005C4343 /* TriggerStore.swift */,
+			);
+			path = TriggerBuild;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +420,7 @@
 				AD30FA4924B7244E00B45B4F /* Frameworks */,
 				AD30FA4A24B7244E00B45B4F /* Resources */,
 				AD30FA9C24B7245000B45B4F /* Embed Watch Content */,
+				ADD9DA0B24C7037700E89DBE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -254,6 +428,11 @@
 				AD30FA7424B7244F00B45B4F /* PBXTargetDependency */,
 			);
 			name = v2.0_bitrise_ios;
+			packageProductDependencies = (
+				AD30FAA724B724EF00B45B4F /* KeychainSwift */,
+				AD30FABF24B7318500B45B4F /* KingfisherSwiftUI */,
+				ADD9DA1024C705D000E89DBE /* ADModifiers */,
+			);
 			productName = v2.0_bitrise_ios;
 			productReference = AD30FA4C24B7244E00B45B4F /* v2.0_bitrise_ios.app */;
 			productType = "com.apple.product-type.application";
@@ -304,6 +483,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				AD30FAC424B73B3A00B45B4F /* PBXTargetDependency */,
 				AD30FA8024B7244F00B45B4F /* PBXTargetDependency */,
 			);
 			name = "v2.0_bitrise_ios WatchKit App";
@@ -324,6 +504,9 @@
 			dependencies = (
 			);
 			name = "v2.0_bitrise_ios WatchKit Extension";
+			packageProductDependencies = (
+				AD30FACC24B73C4E00B45B4F /* KeychainSwift */,
+			);
 			productName = "v2.0_bitrise_ios WatchKit Extension";
 			productReference = AD30FA7D24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -365,6 +548,11 @@
 				Base,
 			);
 			mainGroup = AD30FA4324B7244D00B45B4F;
+			packageReferences = (
+				AD30FAA624B724EF00B45B4F /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				AD30FABE24B7318500B45B4F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				ADD9DA0F24C705D000E89DBE /* XCRemoteSwiftPackageReference "ADModifiers" */,
+			);
 			productRefGroup = AD30FA4D24B7244E00B45B4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -384,7 +572,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD30FA5724B7244E00B45B4F /* Preview Assets.xcassets in Resources */,
+				AD30FAB624B7275400B45B4F /* applicationDetail.json in Resources */,
 				AD30FA5424B7244E00B45B4F /* Assets.xcassets in Resources */,
+				AD30FAB524B7275400B45B4F /* applicationList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,8 +616,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE081E524C5B697005C4343 /* BuildNumberLabel.swift in Sources */,
+				ADE081E924C5B697005C4343 /* WorkflowLabel.swift in Sources */,
 				AD30FA5224B7244E00B45B4F /* ContentView.swift in Sources */,
+				ADE081D624C5B29C005C4343 /* ApplicationDetailStore.swift in Sources */,
+				AD30FAB224B7271C00B45B4F /* Data.swift in Sources */,
+				ADE081EE24C5BF31005C4343 /* TriggerBuildForm.swift in Sources */,
+				AD30FAAB24B7252D00B45B4F /* TokenProvider.swift in Sources */,
+				ADE081D824C5B3D6005C4343 /* Builds.swift in Sources */,
+				ADE081E824C5B697005C4343 /* BuildStartTimeLabel.swift in Sources */,
+				ADE081E424C5B697005C4343 /* BuildNameLabel.swift in Sources */,
+				AD30FAB824B7276A00B45B4F /* Models.swift in Sources */,
+				ADE081EB24C5B697005C4343 /* BuildStatusView.swift in Sources */,
+				AD30FABB24B72AE400B45B4F /* Applications.swift in Sources */,
+				AD30FAAF24B726EB00B45B4F /* AddTokenView.swift in Sources */,
+				ADE081F024C5BFC9005C4343 /* TriggerStore.swift in Sources */,
+				ADE081E724C5B697005C4343 /* BranchLabel.swift in Sources */,
+				ADE081E624C5B697005C4343 /* CreateBuildCell.swift in Sources */,
+				ADE081E324C5B697005C4343 /* BuildCard.swift in Sources */,
+				AD30FAC224B7354300B45B4F /* ImageView.swift in Sources */,
 				AD30FA5024B7244E00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */,
+				AD30FABD24B72CAF00B45B4F /* ApplicationsStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,11 +660,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD2812CB24D7798700476073 /* HostingController.swift in Sources */,
 				AD30FA8724B7244F00B45B4F /* NotificationController.swift in Sources */,
 				AD30FA8524B7244F00B45B4F /* ContentView.swift in Sources */,
+				AD30FACA24B73C1600B45B4F /* TokenProvider.swift in Sources */,
 				AD30FA8B24B7244F00B45B4F /* ComplicationController.swift in Sources */,
+				AD2812CD24D7799D00476073 /* ExtensionDelegate.swift in Sources */,
 				AD30FA8324B7244F00B45B4F /* v2_0_bitrise_iosApp.swift in Sources */,
 				AD30FA8924B7244F00B45B4F /* NotificationView.swift in Sources */,
+				ADD9DA1224C70B3A00E89DBE /* TriggerStore.swift in Sources */,
+				ADD9DA1424C70B5000E89DBE /* BranchList.swift in Sources */,
+				AD30FAC924B73B9400B45B4F /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +689,7 @@
 		};
 		AD30FA7424B7244F00B45B4F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = AD30FA7024B7244F00B45B4F /* v2.0_bitrise_ios WatchKit App */;
 			targetProxy = AD30FA7324B7244F00B45B4F /* PBXContainerItemProxy */;
 		};
@@ -481,6 +697,10 @@
 			isa = PBXTargetDependency;
 			target = AD30FA7C24B7244F00B45B4F /* v2.0_bitrise_ios WatchKit Extension */;
 			targetProxy = AD30FA7F24B7244F00B45B4F /* PBXContainerItemProxy */;
+		};
+		AD30FAC424B73B3A00B45B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = AD30FAC324B73B3A00B45B4F /* KeychainSwift */;
 		};
 /* End PBXTargetDependency section */
 
@@ -602,7 +822,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -626,7 +846,7 @@
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -651,12 +871,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				IBSC_MODULE = v2_0_bitrise_ios_WatchKit_Extension;
 				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -671,12 +893,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				IBSC_MODULE = v2_0_bitrise_ios_WatchKit_Extension;
 				INFOPLIST_FILE = "v2.0_bitrise_ios WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -691,9 +915,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = v2.0_bitrise_ios/v2.0_bitrise_ios.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios/Preview Content\"";
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = v2.0_bitrise_ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -704,6 +930,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -714,9 +942,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = v2.0_bitrise_ios/v2.0_bitrise_ios.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"v2.0_bitrise_ios/Preview Content\"";
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = v2.0_bitrise_ios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -727,6 +957,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.alperenduran.v2-0-bitrise-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -739,7 +971,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				INFOPLIST_FILE = v2.0_bitrise_iosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -762,7 +994,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				INFOPLIST_FILE = v2.0_bitrise_iosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -785,7 +1017,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				INFOPLIST_FILE = v2.0_bitrise_iosUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -807,7 +1039,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 24276C4JVA;
+				DEVELOPMENT_TEAM = JRJP23U4FV;
 				INFOPLIST_FILE = v2.0_bitrise_iosUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -883,6 +1115,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD30FAA624B724EF00B45B4F /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 19.0.0;
+			};
+		};
+		AD30FABE24B7318500B45B4F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.1;
+			};
+		};
+		ADD9DA0F24C705D000E89DBE /* XCRemoteSwiftPackageReference "ADModifiers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alperenduran/ADModifiers.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD30FAA724B724EF00B45B4F /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD30FAA624B724EF00B45B4F /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		AD30FABF24B7318500B45B4F /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD30FABE24B7318500B45B4F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+		AD30FAC324B73B3A00B45B4F /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD30FAA624B724EF00B45B4F /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		AD30FACC24B73C4E00B45B4F /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD30FAA624B724EF00B45B4F /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		ADD9DA1024C705D000E89DBE /* ADModifiers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADD9DA0F24C705D000E89DBE /* XCRemoteSwiftPackageReference "ADModifiers" */;
+			productName = ADModifiers;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD30FA4424B7244D00B45B4F /* Project object */;
 }
