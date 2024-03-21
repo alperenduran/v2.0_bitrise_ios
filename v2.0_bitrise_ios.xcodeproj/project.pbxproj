@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,7 +39,6 @@
 		AD30FAC924B73B9400B45B4F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAB724B7276A00B45B4F /* Models.swift */; };
 		AD30FACA24B73C1600B45B4F /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30FAAA24B7252D00B45B4F /* TokenProvider.swift */; };
 		AD30FACD24B73C4E00B45B4F /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD30FACC24B73C4E00B45B4F /* KeychainSwift */; };
-		ADD9DA1124C705D000E89DBE /* ADModifiers in Frameworks */ = {isa = PBXBuildFile; productRef = ADD9DA1024C705D000E89DBE /* ADModifiers */; };
 		ADD9DA1224C70B3A00E89DBE /* TriggerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081EF24C5BFC9005C4343 /* TriggerStore.swift */; };
 		ADD9DA1424C70B5000E89DBE /* BranchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9DA1324C70B5000E89DBE /* BranchList.swift */; };
 		ADE081D624C5B29C005C4343 /* ApplicationDetailStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE081D524C5B29C005C4343 /* ApplicationDetailStore.swift */; };
@@ -185,7 +184,6 @@
 			files = (
 				AD30FAC024B7318500B45B4F /* KingfisherSwiftUI in Frameworks */,
 				AD30FAA824B724EF00B45B4F /* KeychainSwift in Frameworks */,
-				ADD9DA1124C705D000E89DBE /* ADModifiers in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +429,6 @@
 			packageProductDependencies = (
 				AD30FAA724B724EF00B45B4F /* KeychainSwift */,
 				AD30FABF24B7318500B45B4F /* KingfisherSwiftUI */,
-				ADD9DA1024C705D000E89DBE /* ADModifiers */,
 			);
 			productName = v2.0_bitrise_ios;
 			productReference = AD30FA4C24B7244E00B45B4F /* v2.0_bitrise_ios.app */;
@@ -551,7 +548,6 @@
 			packageReferences = (
 				AD30FAA624B724EF00B45B4F /* XCRemoteSwiftPackageReference "keychain-swift" */,
 				AD30FABE24B7318500B45B4F /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				ADD9DA0F24C705D000E89DBE /* XCRemoteSwiftPackageReference "ADModifiers" */,
 			);
 			productRefGroup = AD30FA4D24B7244E00B45B4F /* Products */;
 			projectDirPath = "";
@@ -1133,14 +1129,6 @@
 				minimumVersion = 5.14.1;
 			};
 		};
-		ADD9DA0F24C705D000E89DBE /* XCRemoteSwiftPackageReference "ADModifiers" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/alperenduran/ADModifiers.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1163,11 +1151,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AD30FAA624B724EF00B45B4F /* XCRemoteSwiftPackageReference "keychain-swift" */;
 			productName = KeychainSwift;
-		};
-		ADD9DA1024C705D000E89DBE /* ADModifiers */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = ADD9DA0F24C705D000E89DBE /* XCRemoteSwiftPackageReference "ADModifiers" */;
-			productName = ADModifiers;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
